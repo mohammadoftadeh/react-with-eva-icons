@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#An example of how to use eva icons in React.js is given
 
 ## Available Scripts
 
