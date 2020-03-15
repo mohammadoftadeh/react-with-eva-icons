@@ -1,23 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import "./App.css";
+
+import * as eva from "eva-icons";
 
 function App() {
+  useEffect(() => {
+    eva.replace();
+  }, []);
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <i
+          data-eva="search"
+          data-eva-animation="pulse"
+          data-eva-hover="false"
+          data-eva-infinite="true"
+        />
+        <br />
+        <i
+          data-eva="github"
+          data-eva-animation="pulse"
+          data-eva-hover="true"
+          data-eva-infinite="true"
+        />
+        <br />
+        <i
+          data-eva="code"
+          data-eva-animation="pulse"
+          data-eva-hover="false"
+          data-eva-infinite="true"
+        />
       </header>
     </div>
   );
