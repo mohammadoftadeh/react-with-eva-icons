@@ -3,6 +3,55 @@
 Download our set on the desktop to use them in your digital products for Web, iOS and Android.
 Compatible with Eva Design System.
 
+### NPM
+
+- Install the package:
+```
+npm i eva-icons
+``` 
+
+- Include it to your page:
+```js
+import * as eva from 'eva-icons';
+```
+
+## How to use
+
+### React.js
+
+- Add the `data-eva` attribute with the icon name to an element:
+
+```js
+import React, { useEffect } from "react";
+import "./App.css";
+
+import * as eva from "eva-icons";
+
+function App() {
+  useEffect(() => {
+    // add this line
+    eva.replace();
+  }, []);
+  return (
+    <div className="App">
+      <header className="App-header">
+       // add your icon
+        <i
+          data-eva="search"
+          data-eva-animation="pulse"
+          data-eva-hover="false"
+          data-eva-infinite="true"
+        />
+      </header>
+    </div>
+  );
+}
+
+export default App;
+```
+- Call eva.replace(); to replace all elements with the data-eva data attribute with SVG elements. You can also pass some additional parameters to the replace method to modify the replace function behavior.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
