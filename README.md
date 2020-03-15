@@ -1,4 +1,4 @@
-#An example of how to use eva icons in React.js is given
+## An example of how to use eva icons in React.js is given
 
 ## Available Scripts
 
