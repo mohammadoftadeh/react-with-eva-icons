@@ -49,7 +49,9 @@ function App() {
 
 export default App;
 ```
-- Call eva.replace(); to replace all elements with the data-eva data attribute with SVG elements. You can also pass some additional parameters to the replace method to modify the replace function behavior.
+- Call ```js eva.replace(); ``` to replace all elements with the data-eva data attribute with SVG elements. You can also pass some additional parameters to the replace method to modify the replace function behavior.
+
+
 
 
 ## Available Scripts
