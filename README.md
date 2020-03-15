@@ -1,4 +1,7 @@
 ## An example of how to use eva icons in React.js is given
+[Eva Icons](https://github.com/akveo/eva-icons) is a pack of more than 480 beautifully crafted Open Source icons for common actions and items.
+Download our set on the desktop to use them in your digital products for Web, iOS and Android.
+Compatible with Eva Design System.
 
 ## Available Scripts
 
